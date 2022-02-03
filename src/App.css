@@ -1,1 +1,115 @@
 /* Other rules */
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, */
+  /* sans-serif; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #ff0000;
+  font-size: 13px;
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+}
+/* FORM PAGE */
+.form {
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.form button {
+  position: relative;
+  margin-top: 50px;
+  background-color: #5c47d2;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  height: 45px;
+  font-family: inherit;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-family: inherit;
+  height: 45px;
+  background-color: #fbf9f9;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding-left: 10px;
+}
+
+.pw-error {
+  border: 1px solid #ff0000;
+}
+
+/* RESULT PAGE */
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 200px;
+  padding: 25px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.result-container span {
+  font-size: 15px;
+  height: 20px;
+  /* margin-bottom: 15px; */
+  /* background-color: darkmagenta; */
+}
+
+.result-button {
+  margin-top: 30px;
+  padding: 0 40px 0 40px;
+  background-color: #5c47d2;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  height: 45px;
+  font-family: inherit;
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  line-height: 120px;
+  /* height: 300px; */
+  text-align: center;
+  font-size: 15px;
+}
+b {
+  font-weight: 600;
+}
