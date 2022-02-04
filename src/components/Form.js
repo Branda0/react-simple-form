@@ -36,7 +36,7 @@ const Form = ({ pw1, pw2, name, email, setIsForm, setName, setEmail, setPassword
         setValue={setPassword2}
         text="Confirm your password"
         type="password"
-        // placeholder="mot de passe"
+        placeholder="mot de passe"
       />
       {pwdError && <p>les mots de passe ne sont pas identiques</p>}
       <Button type="submit" value="Register" />
