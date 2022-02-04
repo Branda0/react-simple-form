@@ -1,6 +1,6 @@
 import Input from "./Input";
 import Button from "./Button";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 const Form = ({ pw1, pw2, name, email, setIsForm, setName, setEmail, setPassword1, setPassword2 }) => {
   const [pwdError, setPwdError] = useState(false);
